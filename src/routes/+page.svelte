@@ -33,7 +33,7 @@
 <p>{clicks}</p>
 
 <h1>Procure um pokemon</h1>
-<input type="text" on:change={(event) => handleChange(event)}>
+<input class="text-black border-blue-500" type="text" on:change={(event) => handleChange(event)}>
 <button on:click={() => getPokemon()}>Pesquisar</button>
 <br/>
 
