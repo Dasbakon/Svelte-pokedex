@@ -50,11 +50,11 @@
 
 <h1>Pokemons</h1>
 <p>Escolha o range dos pokemons</p>
-<div class="flex-col flex w-48 columns-2">
+<div class="flex flex-row colums-2">
     <label for="">De</label>
-    <input type="number" on:change={(event) => handleChangeFrom((event.target)?.value)}/>
+    <input class="h-8 rounded m-auto" type="number" on:change={(event) => handleChangeFrom((event.target)?.value)}/>
     <label for="">Até</label>
-    <input type="number" on:change={(event) => handleChangeTo((event.target)?.value)}/>
+    <input class="h-8 rounded m-auto" type="number" on:change={(event) => handleChangeTo((event.target)?.value)}/>
     <button
         class="bg-gray-400"
         on:click={() => {
